@@ -1,0 +1,22 @@
+# Core Deep Learning
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Graph Neural Networks
+torch_geometric>=2.4.0
+# Note: torch-scatter and torch-sparse are dependencies of torch_geometric
+# that often require specific installation commands (see below).
+
+# Computer Vision Models
+timm>=0.9.0
+
+# Data Processing & Images
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Utilities & Metrics
+scikit-learn>=1.3.0
+tqdm>=4.66.0
+matplotlib>=3.7.0
