@@ -4,8 +4,6 @@ torchvision>=0.16.0
 
 # Graph Neural Networks
 torch_geometric>=2.4.0
-# Note: torch-scatter and torch-sparse are dependencies of torch_geometric
-# that often require specific installation commands (see below).
 
 # Computer Vision Models
 timm>=0.9.0
